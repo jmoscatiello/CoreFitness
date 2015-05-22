@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Core Fitness</string>
+    <string name="app_name_logo">core fitness</string>
+    <string name="action_settings">Settings</string>
+    <string name="image_logo">Core Logo</string>
+    <string name="content_warning">*Please contact a physician before performing any of these exercises</string>
+    
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Web search</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+    
+    <string name="text_workouts">Workouts</string>
+    <string name="text_health_tips">Health Tips</string>
+    <string name="text_guide">Training Guide</string>
+    <string name="text_program">Programs</string>
+    <string name="text_schedule">Schedule</string>
+    <string name="text_recipe">Recipes</string>
+    
+    <!-- Workout Page -->
+    <string name="workout_image_cd">Workout Image</string>
+    <string name="timerVal">00:00:00</string>
+     <string name="click_to_begin_routine">click to begin routine</string>
+     <string name="click_to_begin_set">click to begin next set</string>
+
+    <!-- internet connection -->
+    <string name="internet_connection_needed_tips">An internet connection is required to view the Health Tips</string>
+    <string name="internet_connection_needed_recipe">An internet connection is required to view the Recipe of the Day</string>
+    
+    <!-- Health Tips Page -->
+    <string name="tips_dialog_text">Each week we post a new health tip to the app to keep you informed on healthy habits and health in general. We receive every tip from our certified personal trainer who owns and operates The Workout Loft Toronto (TheWorkoutLoft.com) in Toronto, Canada. We try to cover all areas of health but if there is a topic you want to hear about you can always tweet us at @pursefitness on Twitter. We would love to hear from you! </string>
+    
+    <!--  recipe page -->
+    <string name="text_instructions">Instructions</string>
+    <string name="text_ingrediants">Ingredients</string>
+    <string name="recipe_dialog_text">Each day we post a new recipe to the app to give you some ideas on healthy alternatives to cook rather than go out and spend money on fast food and junk. However, we cannot take all the credit. Each recipe is taken from HealthFitnessRecipes.com. To find out more information about healthy recipes or to receive lots of great health information, head over to HealthFitnessRecipes.com and HealthFitnessBoss.com today!</string>
+    
+    <!-- Stretch/Cool Down Fragment -->
+    <string name="stretch_frag_title">Warm up and Light Stretching</string>
+    <string name="stretch_frag_description">It is important that before each routine you warm up and perform some light stretching.</string>
+    <string name="cool_frag_title">Cool Down</string>
+    <string name="cool_frag_description">Cool down by walking around and do some light stretching to prevent you muscles from tightening up.</string>
+    
+    <!-- Program Scedule  -->
+    <string name="schedule_help_text">Welcome to the 6 week regiment! We have set up 6 weeks of routines for you to follow. These programs have been created by a certified personal trainer and are designed to kick your butt. You are not forced to follow the routines in any particular order and please feel free to go at your own pace. Rest days are set up to give you daylong breaks in between core days as these routines are designed to be intense! </string>
+     <string name="program_help_text">The programs on this page range from level 1 to level 3 with level 3 being the most intense. These programs also directly correspond to the routines you will see in the 6 week schedule screen. For more but kicking workouts check out Purse Fitness on the Android and IOS markets or by going to www.pursefitness.com</string>
+    
+    <!-- Routine pages -->
+    <string name="routine_stretch_text">It is important that before each routine you perform some light stretching and always get your muscles warm before performing any exercises. As well, make sure to cool down by walking around and performing some light stretching after every routine. Check out Stretch Fitness on the Android and IOS market to view some simple stretches you can perform to prepare for each and every workout! (www.polymorphicstudios.com) \n Good Luck!</string>
+    <string name="finished_program_text">Great Job, you have completed the routine! Don\'t forget to rate the app!</string>
+</resources>

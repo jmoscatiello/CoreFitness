@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/josephmoscatiello1/Documents/adroid_app/corefitnesslite/CoreFitness/coreFitnessPro/build/intermediates/exploded-aar/CoreFitness/library/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0caba2ec6aeb41f1ba5b7d1070d5a69b4ce95b2c">
+        <dex dex="/Users/josephmoscatiello1/Documents/adroid_app/corefitnesslite/CoreFitness/coreFitnessPro/build/intermediates/pre-dexed/debug/classes-39182f308c17d28273da1ee43de0997d1ef75897.jar" />
+    </item>
+    <item
+        jar="/Users/josephmoscatiello1/.gradle/caches/modules-2/files-2.1/com.nostra13.universalimageloader/universal-image-loader/1.9.3/a85588bec3e2c4584d593d3f15df1677321bca72/universal-image-loader-1.9.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
+        <dex dex="/Users/josephmoscatiello1/Documents/adroid_app/corefitnesslite/CoreFitness/coreFitnessPro/build/intermediates/pre-dexed/debug/universal-image-loader-1.9.3-01d7d102c44941b7dce2dca9059250fdd3768d79.jar" />
+    </item>
+    <item
+        jar="/Users/josephmoscatiello1/Documents/adroid_app/corefitnesslite/CoreFitness/coreFitnessPro/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="/Users/josephmoscatiello1/Documents/adroid_app/corefitnesslite/CoreFitness/coreFitnessPro/build/intermediates/pre-dexed/debug/classes-163eb8d0aefb39618339aae4fee18276d414f888.jar" />
+    </item>
+    <item
+        jar="/Users/josephmoscatiello1/Documents/adroid_app/corefitnesslite/CoreFitness/coreFitnessPro/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.0/jars/libs/internal_impl-22.1.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="025cb89f2896c63200ff4c2e6c467a95691d880a">
+        <dex dex="/Users/josephmoscatiello1/Documents/adroid_app/corefitnesslite/CoreFitness/coreFitnessPro/build/intermediates/pre-dexed/debug/internal_impl-22.1.0-dc9881b36852706264607b0ebe1d0797717da47b.jar" />
+    </item>
+    <item
+        jar="/Users/josephmoscatiello1/Documents/adroid_app/corefitnesslite/CoreFitness/coreFitnessPro/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="eeebabdfd8203f6ab639ccea4ffa1f20e1adee3a">
+        <dex dex="/Users/josephmoscatiello1/Documents/adroid_app/corefitnesslite/CoreFitness/coreFitnessPro/build/intermediates/pre-dexed/debug/classes-fa5768a76aca34355419b850640b4c58e49eae60.jar" />
+    </item>
+    <item
+        jar="/Users/josephmoscatiello1/Documents/adroid_app/corefitnesslite/CoreFitness/coreFitnessPro/build/intermediates/exploded-aar/com.actionbarsherlock/actionbarsherlock/4.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="af64527b748983a75de9c0756e9768b56b240a49">
+        <dex dex="/Users/josephmoscatiello1/Documents/adroid_app/corefitnesslite/CoreFitness/coreFitnessPro/build/intermediates/pre-dexed/debug/classes-1a67eb9e61f3d8e78525466dafb319e495976c84.jar" />
+    </item>
+    <item
+        jar="/Users/josephmoscatiello1/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.0/support-annotations-22.1.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="281bc6c58ecb3644c23fbc5ee0452019f67b4d5d">
+        <dex dex="/Users/josephmoscatiello1/Documents/adroid_app/corefitnesslite/CoreFitness/coreFitnessPro/build/intermediates/pre-dexed/debug/support-annotations-22.1.0-2af22452edca75be9cbe4a144282536c3b5e6b73.jar" />
+    </item>
+
+</items>

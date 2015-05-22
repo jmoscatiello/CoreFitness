@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#333333"><!-- @drawable/radial_grey_gradient -->
+
+    <ImageView
+        android:id="@+id/splashImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:contentDescription="@string/image_logo"/>
+
+     <TextView
+        android:id="@+id/logoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/splashImage"
+        android:text="@string/app_name_logo"
+        android:layout_marginTop="10dp"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/logo_fonts_xlarge"
+         />
+    
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="10dp" 
+        android:layout_marginRight="10dp"
+        android:textSize="@dimen/fonts_small" />
+
+  
+</RelativeLayout><!-- From: file:/Users/josephmoscatiello1/Documents/adroid_app/corefitnesslite/CoreFitness/coreFitnessPro/src/main/res/layout/layout_splash_screen.xml -->

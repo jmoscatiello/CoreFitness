@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+     <item android:id="@+id/wm_go_pro"
+           android:title="Want More? \n GO PRO!" />
+</menu>
+<!-- From: file:/Users/josephmoscatiello1/Documents/adroid_app/corefitnesslite/CoreFitness/coreFitnessPro/src/main/res/menu/go_pro_menu.xml -->

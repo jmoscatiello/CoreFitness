@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:state_pressed="false" android:drawable="@drawable/icon_health_tips" /> 
+	<item android:state_pressed="true" android:drawable="@drawable/icon_health_tips_pressed" /> 
+</selector><!-- From: file:/Users/josephmoscatiello1/Documents/adroid_app/corefitnesslite/CoreFitness/coreFitnessPro/src/main/res/drawable/transition_icon_tip.xml -->

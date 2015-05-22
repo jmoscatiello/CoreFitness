@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f8f8f8"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:layout_marginTop="5dp" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:baselineAligned="false">
+
+             <LinearLayout
+           	 	style="@style/home_screen_tile"
+            	android:orientation="vertical">
+            
+            	<ImageView
+                	android:id="@+id/btn_main_workout"
+                	style="@style/idc_dash_imageview"
+                	android:src="@drawable/transition_icon_dumbell">
+                </ImageView>
+            	
+            	<TextView
+            	     android:id="@+id/tv_workout"
+            	     android:layout_width="wrap_content"
+            		 android:layout_height="wrap_content"
+            	     android:text="@string/text_workouts"
+            	     android:layout_gravity="center_horizontal"
+            	     android:gravity="center_horizontal"
+            	     android:textSize="@dimen/fonts_small"
+            	     android:textColor="@color/subblack">
+            	</TextView>
+            	
+            </LinearLayout>
+            
+            <LinearLayout
+           	 	style="@style/home_screen_tile"
+            	android:orientation="vertical">
+            	
+            	<ImageView
+                	android:id="@+id/btn_main_schedule"
+                    style="@style/idc_dash_imageview"
+                    android:src="@drawable/transition_icon_calendar" />
+            	
+            	<TextView
+            	     android:id="@+id/tv_schedule"
+            	     android:layout_width="wrap_content"
+            		 android:layout_height="wrap_content"
+            	     android:text="@string/text_schedule"
+            	     android:layout_gravity="center_horizontal"
+            	     android:gravity="center_horizontal"
+            	     android:textSize="@dimen/fonts_small"
+            	     android:textColor="@color/subblack">
+            	</TextView>
+            	
+            </LinearLayout> 
+            
+            <LinearLayout
+           	 	style="@style/home_screen_tile"
+            	android:orientation="vertical">
+            	
+            	<ImageView
+               		android:id="@+id/btn_main_program"
+                	style="@style/idc_dash_imageview"
+                	android:src="@drawable/transition_icon_program"/>
+            	
+            	<TextView
+            	     android:id="@+id/tv_program"
+            	     android:layout_width="wrap_content"
+            		 android:layout_height="wrap_content"
+            	     android:text="@string/text_program"
+            	     android:layout_gravity="center_horizontal"
+            	     android:gravity="center_horizontal"
+            	     android:textSize="@dimen/fonts_small"
+            	     android:textColor="@color/subblack">
+                </TextView>
+            	
+            </LinearLayout>
+           
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp" 
+            android:baselineAligned="false">
+
+             <LinearLayout
+           	 	style="@style/home_screen_tile"
+            	android:orientation="vertical">
+            	
+            	<ImageView
+                	android:id="@+id/btn_main_tip"
+                    style="@style/idc_dash_imageview"
+                    android:src="@drawable/transition_icon_tip"/>
+            	
+            	<TextView
+            	     android:id="@+id/tv_tip"
+            	     android:layout_width="wrap_content"
+            		 android:layout_height="wrap_content"
+            	     android:text="@string/text_health_tips"
+            	     android:layout_gravity="center_horizontal"
+            	     android:gravity="center_horizontal"
+            	     android:textSize="@dimen/fonts_small"
+            	     android:textColor="@color/subblack">
+            	</TextView>
+            	
+            </LinearLayout>
+
+            <LinearLayout
+           	 	style="@style/home_screen_tile"
+            	android:orientation="vertical">
+            	
+            	<ImageView
+               		android:id="@+id/btn_recipe"
+                	style="@style/idc_dash_imageview"
+                	android:src="@drawable/transition_icon_recipe"/>
+            	
+            	<TextView
+            	     android:id="@+id/tv_recipe"
+            	     android:layout_width="wrap_content"
+            		 android:layout_height="wrap_content"
+            	     android:text="@string/text_recipe"
+            	     android:layout_gravity="center_horizontal"
+            	     android:gravity="center_horizontal"
+            	     android:textSize="@dimen/fonts_small"
+            	     android:textColor="@color/subblack">
+                </TextView>
+            	
+            </LinearLayout>
+            
+             <LinearLayout
+           	 	android:layout_height="wrap_content"
+           	 	android:layout_width="0dp"
+           	 	android:layout_weight="1"
+            	android:orientation="vertical">
+            	
+            </LinearLayout>
+            
+        </LinearLayout>
+        
+    </LinearLayout>
+    
+     <!-- Ads -->
+     <LinearLayout 
+             android:id="@+id/adholder"
+             android:orientation="horizontal"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+        	 android:layout_alignParentBottom="true"
+        	 android:background="#000000">
+    </LinearLayout>	
+    
+</RelativeLayout>

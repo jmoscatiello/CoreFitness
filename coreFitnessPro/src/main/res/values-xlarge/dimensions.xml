@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <dimen name="fonts_small"> 25sp</dimen>
+     <dimen name="fonts_normal">30sp</dimen>
+     <dimen name="fonts_large"> 38sp</dimen>
+     <dimen name="fonts_xlarge"> 42sp</dimen>
+     
+      <dimen name="tab_font_size"> 29.5sp</dimen>
+     <dimen name="home_screen_margintop"> 50dp</dimen>
+     <dimen name="home_screen_textpadding"> 47dp</dimen>
+     
+      <dimen name="logo_fonts_small"> 45sp</dimen>
+     <dimen name="logo_fonts_normal"> 50sp</dimen>
+     <dimen name="logo_fonts_large"> 58sp</dimen>
+     <dimen name="logo_fonts_xlarge"> 65sp</dimen>
+</resources>

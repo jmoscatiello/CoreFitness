@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/subblack" >
+    
+    <TextView
+        	android:id="@+id/timerValueAlt"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_centerHorizontal="true"
+        	android:layout_marginTop="10dp"
+        	android:textSize="35sp"
+        	android:textColor="#ffffff"
+        	android:text="@string/timerVal"
+        	android:visibility="invisible"/> 
+    
+    <!-- upper half of screen with image -->
+    <ImageView 
+          android:id="@+id/workout_image"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_centerInParent="true"
+          android:contentDescription="@string/workout_image_cd">
+    </ImageView>
+    
+     <!-- Timer Layout below image -->
+   
+    <RelativeLayout
+        		android:id="@+id/handle"
+       		    android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:background="@color/translucent_black"
+        		android:layout_alignParentTop="true"
+        		android:padding="10dp">
+        			
+      			<TextView
+            		android:id="@+id/workout_title"
+            		android:layout_width="wrap_content"
+           	 		android:layout_height="wrap_content"
+            		android:layout_centerHorizontal="true"
+            		android:textSize="@dimen/fonts_normal"
+		            android:textColor="@color/white"
+		            android:padding="2dp"
+		            android:visibility="gone">
+      			</TextView>
+      			    
+      			<TextView
+            		android:id="@+id/workout_im_num"
+            		android:layout_width="wrap_content"
+           	 		android:layout_height="wrap_content"
+            		android:layout_centerHorizontal="true"
+            		android:textSize="@dimen/fonts_normal"
+		            android:textColor="@color/white"
+		            android:padding="2dp"
+		            android:layout_below="@+id/workout_title"
+		            android:visibility="gone"
+		            >
+      			</TextView>
+      			
+      			<TextView 
+        	           android:id="@+id/workout_rep"
+        	           android:layout_width="wrap_content"
+                   	   android:layout_height="wrap_content"
+                   	   android:padding="2dp"
+                   	   android:layout_centerHorizontal="true"
+            		   android:textSize="@dimen/fonts_normal"
+		               android:textColor="@color/white"
+		               android:layout_below="@+id/workout_im_num"
+		               android:visibility="gone"/>
+      			
+      			<TextView
+        			   android:id="@+id/timerValue1"
+        			   android:layout_width="wrap_content"
+        			   android:layout_height="wrap_content"
+        			   android:layout_centerHorizontal="true"
+        			   android:layout_marginTop="3dp"
+        			   android:textSize="20sp"
+        			   android:textColor="#ffffff"
+        			   android:text="@string/timerVal"
+        			   android:layout_below="@+id/workout_rep"/>
+        		    	 
+    </RelativeLayout>
+    
+    <!-- LOWER LAYOUT -->	
+    <RelativeLayout
+                 android:id="@+id/lower_layout"
+        	     android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentBottom="true"
+                 android:orientation="vertical"
+                 android:background="@color/translucent_black"
+                 android:padding="10dp">
+
+                 <LinearLayout 
+                     android:id="@+id/workout_info_bar"
+                     android:layout_width="match_parent"
+                 	 android:layout_height="wrap_content"
+                 	 android:orientation="horizontal">
+                     
+        	             <TextView 
+        	                 android:id="@+id/workout_equipment"
+        	                 android:layout_width="0dp"
+                   		 	 android:layout_height="wrap_content"
+                   		 	 android:layout_weight="0.5"
+                   		 	 android:textSize="@dimen/fonts_small"
+                   		 	 android:textColor="@color/white"
+                   		 	 android:layout_gravity="center"
+                   		 	 android:gravity="center"
+                   		 	 />
+        	             
+        	             
+        	             <TextView 
+        	                 android:id="@+id/image_number"
+        	                 android:layout_width="0dp"
+                   		 	 android:layout_height="wrap_content"
+                   		 	 android:layout_weight="0.5"
+                   		 	 android:textSize="@dimen/fonts_small"
+                   		 	 android:textColor="@color/white"
+                   		 	 android:gravity="center"
+                   		 	 android:layout_gravity="center"
+                   		 	 />
+        	           
+                  </LinearLayout>
+                  
+                  <LinearLayout
+                    android:id="@+id/horizontal_divider"
+        			android:layout_width="fill_parent"
+       				android:layout_height="wrap_content"
+        			android:padding="5dp"
+        			android:orientation="horizontal"
+        			android:layout_below="@+id/workout_info_bar">
+      			    
+            		<View
+    					android:layout_width="0dp"
+    					android:layout_height="1dip"
+    					android:layout_weight="0.95"
+    					android:background="@color/gray"
+    					android:layout_gravity="center_vertical" />
+      			    
+       			   </LinearLayout>
+                 
+        		  <TextView
+                		android:id="@+id/workout_description"
+               	 		android:layout_width="fill_parent"
+                		android:layout_height="wrap_content"
+                		android:layout_gravity="center_horizontal"
+    			    	android:gravity="center_horizontal"
+    			    	android:textColor="@color/white"
+    			    	android:layout_below="@+id/horizontal_divider"
+    			    	android:padding="10dp"/>
+    </RelativeLayout>     
+    
+     <TextView
+        	android:id="@+id/clickBeginText"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textSize="@dimen/logo_fonts_xlarge"
+        	android:textColor="#ffffff"
+        	android:text="@string/click_to_begin_routine"
+        	android:gravity="center"
+        	android:layout_centerInParent="true"/> 
+       
+</RelativeLayout>
